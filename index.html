@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Michi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Michi is a Full Stack Developer">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/kube.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/custom.min.css">
+		<link rel="shortcut icon" href="img/favicon.ico">
+
+	<style>
+		.intro h1:before {
+			content: 'MICHI';
+		}
+	</style>
+</head>
+<body>
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1" style="display: none;">
+				    <span class="logo">Michi</span>
+				</div>
+			    <nav id="navbar-1" class="navbar item-nav">
+				    <ul>
+				        <li class="active"><a href="#about">About</a></li>
+				        <li><a href="#experiences">Experiences</a></li>
+				        <li><a href="#achievements">Achievements</a></li>
+				        <li><a href="#skills">Skills</a></li>
+				    </ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+
+	<!-- Introduction -->
+	<div class="intro section" id="about">
+		<div class="container">
+			<p>Hi, I’m Michi</p>
+			<div class="units-row units-split wrap">
+				<div class="unit-20">
+					<img src="img/ava.jpg" alt="Avatar">
+				</div>
+				<div class="unit-80">
+					<h1>I develop<br><span id="typed"></span><span class="typed-cursor"></span></h1>
+				</div>
+				<p>
+					Experienced Full Stack Developer dedicated to crafting dynamic web applications with a focus on seamless user experiences. I am passionate about staying updated on the latest trends and collaborating closely with clients to meet their unique needs. Let's work together to bring your ideas to life and create impactful solutions. Feel free to reach out—I'd be honored to be a part of your journey.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Experiences -->
+	<div class="work section second" id="experiences">
+		<div class="container">
+			<h1>Experiences</h1>
+			<ul class="work-list">
+				<li>2023-Present</li>
+				<li>Self-employed</li>
+				<li>Full Stack Developer</li>
+			</ul>
+			<ul class="work-list">
+				<li>2023-Present</li>
+				<li><a href="https://www.linkedin.com/company/sound-fan/">sound.fan</a></li>
+				<li>Founder</li>
+			</ul>
+			<ul class="work-list">
+				<li>2006-2023</li>
+				<li><a href="https://www.linkedin.com/company/google/">Google</a></li>
+				<li>Developer</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Achievements -->
+	<div class="award section second" id="achievements">
+		<div class="container">
+			<h1>Achievements</h1>
+			<ul class="award-list list-flat">
+				<li>2023</li>
+				<li>Launched a series of MVPs to showcase AI-powered solutions</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>2022</li>
+				<li>Achieved Google Cloud 10x growth over 5 years as a support team</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>2017</li>
+				<li>Surpassed 100K subscribers mark as a Tech YouTuber</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>2010</li>
+				<li>Developed an early version video conferencing system which evolved into Google Meet with billions of users now</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Skills -->
+	<div class="skills section second" id="skills">
+		<div class="container">
+			<h1>Skills</h1>
+			<ul class="skill-list list-flat">
+				<li>Web Technology</li>
+				<li>HTML5 / Tailwind CSS / Firebase</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Database</li>
+				<li>Firestore / Redis / Spanner</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Framework</li>
+				<li>Node.js / React / Next.js</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Quote -->
+	<div class="quote">
+		<div class="container text-centered">
+			<h1>Build & Bond.</h1>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-50">
+			    	<p>Handcrafted by Michi</p>
+			    </div>
+			    <div class="unit-50">
+					<ul class="social list-flat right">
+						<li><a href="mailto:michi883@gmail.com"><i class="fa fa-send"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/michi-yamamoto-55934593/"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://github.com/michi883"><i class="fa fa-github"></i></a></li>
+						<li><a href="http://youtube.com/michiyamamoto"><i class="fa fa-youtube"></i></a></li>
+					</ul>
+			    </div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Texts for type effect
+		strings: ["web apps", "ui/ux designs", "backend systems"],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
+
+</body></html>
